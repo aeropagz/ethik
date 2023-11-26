@@ -1,3 +1,26 @@
 \documentclass{article}
+\usepackage[ngerman]{babel} % Silbentrennung
+\usepackage{csquotes}
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage[backend=biber, idemtracker=constrict, ibidtracker=constrict,pagetracker=true]{biblatex}
+
+\addbibresource{Thesis.bib}
+
+\pagestyle{plain}
+\parindent0cm % Absatztiefe
+\setlength{\topmargin}{0pt}       % Höhe der Kopfzeile von oberen Seitenrand
+\setlength{\headheight}{5pt}      % Höhe der Kopfzeile
+\setlength{\headsep}{10pt}         % Höhe der Kopfzeile bis zum Textkörper
+\setlength{\topskip}{15pt}         % Höhe der Kopfzeile bis zum ersten Text
+\setlength{\oddsidemargin}{1pt}   % Seitenbreite links, die Rechte wird über die Breite des Textkörpers bestimmt
+\setlength{\evensidemargin}{1pt}  % Seitenbreite links, die Rechte wird über die Breite des Textkörpers bestimmt
+\setlength{\textheight}{22.5cm}   % Höhe Textkörper
+\setlength{\textwidth}{15cm}      % Breite des Textkörpers
+\setlength{\footskip}{1cm}      % Entfernung bis zur Fußzeile
+\setlength{\skip\footins}{6mm}      %Abstand zwischen Fußnote und Textkörper
+\linespread{1.25}
+
 \title{My Title}
 \begin{document}
